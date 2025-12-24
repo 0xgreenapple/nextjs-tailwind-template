@@ -30,7 +30,7 @@ export default function LandingPage() {
                 npx create-next-app@latest -e https://github.com/0xgreenapple/nextjs-tailwind-template
               </code>
             </div>
-            <Button onClick={()=>{copyText("npx create-next-app@latest -e https://github.com/0xgreenapple/nextjs-tailwind")}} className={"w-[50px] cursor-pointer"} variant={"secondary"}>copy</Button>
+            <Button onClick={()=>{copyText("npx create-next-app@latest -e https://github.com/0xgreenapple/nextjs-tailwind-template")}} className={"w-[50px] cursor-pointer"} variant={"secondary"}>copy</Button>
           </div>
         </Container>
       </section>
