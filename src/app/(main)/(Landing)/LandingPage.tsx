@@ -27,7 +27,7 @@ export default function LandingPage() {
             <h2>Installation</h2>
             <div className={"flex bg-gray-100 rounded-lg max-w-[400px] p-[10px] text-sm"}>
               <code>
-                npx create-next-app@latest -e https://github.com/0xgreenapple/nextjs-tailwind
+                npx create-next-app@latest -e https://github.com/0xgreenapple/nextjs-tailwind-template
               </code>
             </div>
             <Button onClick={()=>{copyText("npx create-next-app@latest -e https://github.com/0xgreenapple/nextjs-tailwind")}} className={"w-[50px] cursor-pointer"} variant={"secondary"}>copy</Button>
